@@ -7,7 +7,7 @@ function setup() {
     // Load images
     charRunning = [];
     for (i = 1; i <= 8; i++) {
-        charRunning.push(loadImage("dog/Run (" + i + ").png"));
+        charRunning.push(loadImage("cat/Run (" + i + ").png"));
     }
 
 }
