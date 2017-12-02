@@ -7,7 +7,7 @@ function setup() {
     // Load images
     charRunning = [];
     for (i = 1; i <= 8; i++) {
-        charRunning.push(loadImage("cat/Run (" + i + ").png"));
+        charRunning.push(loadImage("dog/Run (" + i + ").png"));
     }
 
 }
@@ -34,4 +34,10 @@ function draw() {
         runningFrame = -1;
     }
     runningFrame++;
+}
+
+function keyPressed() {
+    if (keyCode == 32) {
+        alert("Space");
+    }
 }
